@@ -170,7 +170,7 @@ body {
 @media only screen and (max-width: 768px) {
 	body {
 		grid-template-columns: 5% 90% 5%;
-		grid-template-rows: 10% 50% 20%;
+		grid-template-rows: auto 200px auto auto;
 		grid-template-areas: '. logo. ' '. input .' '. btn .' '. output .';
 	}
 
@@ -183,10 +183,10 @@ body {
 	}
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
 	body {
 		grid-template-columns: 5% 90% 5%;
-		grid-template-rows: 10% 50% 20%;
+		grid-template-rows: auto 200px auto auto;
 		grid-template-areas: '. logo. ' '. input .' '. btn .' '. output .';
 	}
 
